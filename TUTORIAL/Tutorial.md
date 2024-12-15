@@ -20,7 +20,7 @@
 Видим, что папка создалась
 ![](<images_for_tutorial/Screenshot from 2024-12-14 23-38-35.png>)
 
-2. Заходим в эту папку, правый клик мышкой и выбираем "Загрузить файлы" и выбираем файл "Auto_train.ipynb"
+2. Заходим в эту папку, правый клик мышкой и выбираем "Загрузить файлы" и выбираем файлы "Auto_train.ipynb"
 ![](<images_for_tutorial/Screenshot from 2024-12-14 23-50-05.png>)
 
 3. Также через загрузку файла загружаем наш датасет
@@ -115,3 +115,20 @@ const interval_id = setInterval(ClickConnect, 60*1000);
 ![](<images_for_tutorial/Screenshot from 2024-12-15 02-02-34.png>)
 В папке "backup" будут появляться веса
 ![](<images_for_tutorial/Screenshot from 2024-12-15 02-04-10.png>)
+
+
+### Сохранение обученной модели
+1. После обучения модели загружаем файл "Auto_save_model.ipynb" и открываем его
+![](<images_for_tutorial/Screenshot from 2024-12-15 11-36-19.png>)
+
+2. Вносим необходимые изменения в DIR_NAME и dir_save
+![](<images_for_tutorial/Screenshot from 2024-12-15 11-38-19.png>)
+
+3. Запускаем файл
+![](images_for_tutorial/res.png)
+
+4. Проверяем содержимое
+![](<images_for_tutorial/Screenshot from 2024-12-15 11-45-49.png>)
+
+5. Скачиваем папку
+![](<images_for_tutorial/Screenshot from 2024-12-15 11-46-28.png>)
