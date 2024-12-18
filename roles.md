@@ -26,7 +26,17 @@ https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov4-tiny-3l.cfg
 
 1. обучить на большом количестве фотографий с 416 на 416 или 608 на 608
 2. строчку change_in_file(config_file, "random=0", "random=1") закоментить или оставить
-3.  3 параметра ignore_thresh = .9 iou_normalizer=0.5   iou_loss=giou к каждому [yolo]слою и обучить его.
+3.  3 параметра ignore_thresh = .9 iou_normalizer=0.5   iou_loss=giou к ка%cd ..
+from google.colab import drive
+
+import os
+drive.mount('/content/gdrive')
+!ln -s /content/gdrive/MyDrive/ /mydrive # это команда создать ссылку, так что длинный путь /content/gdrive/MyDrive/ будет равнозначен короткому и удобному /mydrive
+
+%cd /mydrive
+
+
+! git clone https://github.com/ghamlet/Colab_Tutorial.gitждому [yolo]слою и обучить его.
 4.   max_batches = 9000  всем
 
 
