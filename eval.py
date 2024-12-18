@@ -24,7 +24,7 @@ def load_models():
 
     net = cv2.dnn.readNetFromDarknet(config_path, weights_path)
     yolo_model = cv2.dnn.DetectionModel(net)
-    yolo_model.setInputParams(size=(256, 256), scale=1/255, swapRB=True)
+    yolo_model.setInputParams(size=(416, 416), scale=1/255, swapRB=True)
 
     models = [yolo_model]
     return models
