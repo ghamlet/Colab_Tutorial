@@ -66,6 +66,9 @@ Notes: аннотации должны быть в формате Yolo darknet �
 
 
 ### Работа в Google Colab
+
+[Оригинальный блокнот](https://avt.global/nto_program#!/tab/485212165-4)
+
 1. Открываем наш файл Auto_train.ipynb
 ![](<images_for_tutorial/Screenshot from 2024-12-15 01-36-07.png>)
 
@@ -135,3 +138,7 @@ const interval_id = setInterval(ClickConnect, 60*1000);
 
 5. Скачиваем папку
 ![](<images_for_tutorial/Screenshot from 2024-12-15 11-46-28.png>)
+
+
+### Использование модели
+[Пример](./eval.py)

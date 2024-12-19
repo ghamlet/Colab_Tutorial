@@ -8,19 +8,12 @@ def load_models():
     print("LOAD models")
 
     ### Напоминание, что в архив для ответа на платформе нало скидывать файлы, а не папку
-
-
     
     cfg_file = [f for f in os.listdir(current_directory) if f.endswith(".cfg")][0]
     weights_file = [f for f in os.listdir(current_directory) if f.endswith(".weights")][0]
 
-
     config_path = f"{current_directory}/{cfg_file}"  
     weights_path = f"{current_directory}/{weights_file}"
-
-
-
-
 
     net = cv2.dnn.readNetFromDarknet(config_path, weights_path)
     yolo_model = cv2.dnn.DetectionModel(net)
